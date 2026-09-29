@@ -1,0 +1,30 @@
+# Build output
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+coverage.*
+
+# Never commit evidence or recovery output. Disk images can contain
+# personal data and are large; keep them outside the repository.
+*.img
+*.dd
+*.raw
+*.E01
+*.Ex01
+*.aff
+*.vmdk
+*.vhd
+*.vhdx
+*.map
+*.barerelic.json
+/cases/
+/demo/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
